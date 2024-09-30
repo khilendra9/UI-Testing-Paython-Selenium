@@ -15,7 +15,7 @@ chrome_options = Options()
 chrome_options.add_argument("--disable-gpu")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-extensions")
-chrome_options.add_argument("--blink-settings=imagesEnabled=false")  # Disable images
+# chrome_options.add_argument("--blink-settings=imagesEnabled=false")  # Disable images
 
 # Set up the Chrome WebDriver using WebDriverManager with options
 service = Service(ChromeDriverManager().install())
